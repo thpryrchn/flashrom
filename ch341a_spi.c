@@ -84,7 +84,7 @@ static unsigned int stored_delay_us = 0;
 static struct libusb_device_handle *handle = NULL;
 
 const struct dev_entry devs_ch341a_spi[] = {
-	{0x1A86, 0x5512, OK, "Winchiphead (WCH)", "CH341A"},
+	{0x4348, 0x5512, OK, "Winchiphead (WCH)", "CH341A"},
 
 	{0},
 };
